@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+@theme {
+    /*Paleta de cores globais*/
+    --color-marca-primaria: var(--color-blue-700);
+    --color-marca-secundaria: var(--color-blue-800);
+
+    --color-fundo-site: var(--color-slate-100);
+    --color-texto-principal: var(--color-slate-900);
+    --color-texto-secundario: var(--color-slate-600);
+}
