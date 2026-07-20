@@ -1,8 +1,16 @@
+"use client";
+
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 export default function Cabecalho() {
   return (
-    <header className="bg-fundo-site border-b border-slate-200">
+    <motion.header 
+      className="bg-fundo-site border-b border-slate-200"
+      initial={{ opacity: 0, y: -20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6 }}
+    >
       <div className="max-w-6xl mx-auto px-4 py-5 flex justify-between items-center">
         
         {/* Logo */}
@@ -19,6 +27,6 @@ export default function Cabecalho() {
         </nav>
         
       </div>
-    </header>
+    </motion.header>
   );
 }
