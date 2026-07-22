@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function Projetos() {
   return (
@@ -31,7 +32,7 @@ export default function Projetos() {
           transition={{ duration: 0.6, delay: 0.1 }}
           viewport={{ once: true }}
         >
-          <div className="p-6 md:p-8 flex flex-col h-full">
+          <Link href="/projetos/sentinela-cnc" className="p-6 md:p-8 flex flex-col h-full">
             <h3 className="text-xl font-bold text-texto-principal mb-2">Sentinela-CNC</h3>
             <p className="text-texto-secundario mb-6 text-sm leading-relaxed flex-grow">
               Plataforma IoT para monitoramento inteligente de máquinas CNC. Coleta de dados em tempo real via sensores para antecipar falhas e analisar tempos de standby e sobrecarga.
@@ -41,7 +42,7 @@ export default function Projetos() {
               <span className="px-3 py-1 bg-slate-100 text-texto-secundario text-xs font-semibold rounded-md">Raspberry Pi</span>
               <span className="px-3 py-1 bg-slate-100 text-texto-secundario text-xs font-semibold rounded-md">Python</span>
             </div>
-          </div>
+          </Link>
         </motion.div>
 
         {/* Card 2: Kleber.AI */}
@@ -52,7 +53,7 @@ export default function Projetos() {
           transition={{ duration: 0.6, delay: 0.3 }}
           viewport={{ once: true }}
         >
-          <div className="p-6 md:p-8 flex flex-col h-full">
+          <Link href="/projetos/kleber-ai" className="p-6 md:p-8 flex flex-col h-full">
             <h3 className="text-xl font-bold text-texto-principal mb-2">Kleber.AI</h3>
             <p className="text-texto-secundario mb-6 text-sm leading-relaxed flex-grow">
               Assistente de inteligência artificial personalizado. Uma interface interativa construída para automatizar fluxos de trabalho locais, integração de ferramentas e análise de dados.
@@ -62,7 +63,7 @@ export default function Projetos() {
               <span className="px-3 py-1 bg-slate-100 text-texto-secundario text-xs font-semibold rounded-md">Python</span>
               <span className="px-3 py-1 bg-slate-100 text-texto-secundario text-xs font-semibold rounded-md">Streamlit</span>
             </div>
-          </div>
+          </Link>
         </motion.div>
 
         {/* Card 3: ObraMassa */}
@@ -73,7 +74,7 @@ export default function Projetos() {
           transition={{ duration: 0.6, delay: 0.5 }}
           viewport={{ once: true }}
         >
-          <div className="p-6 md:p-8 flex flex-col h-full">
+          <Link href="/projetos/obramassa" className="p-6 md:p-8 flex flex-col h-full">
             <h3 className="text-xl font-bold text-texto-principal mb-2">ObraMassa</h3>
             <p className="text-texto-secundario mb-6 text-sm leading-relaxed flex-grow">
               Plataforma focada em escalabilidade e gestão para o setor de construção civil. Ferramenta projetada para otimizar processos comerciais e organizar o fluxo de materiais e serviços.
@@ -83,7 +84,7 @@ export default function Projetos() {
               <span className="px-3 py-1 bg-slate-100 text-texto-secundario text-xs font-semibold rounded-md">Next.js</span>
               <span className="px-3 py-1 bg-slate-100 text-texto-secundario text-xs font-semibold rounded-md">Gestão</span>
             </div>
-          </div>
+          </Link>
         </motion.div>
 
       </div>
