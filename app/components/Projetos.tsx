@@ -22,7 +22,7 @@ export default function Projetos() {
       </motion.div>
 
       {/* Grade de Cartões */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
         
         {/* Card 1: Sentinela-CNC */}
         <motion.div 
@@ -67,7 +67,7 @@ export default function Projetos() {
         </motion.div>
 
         {/* Card 3: ObraMassa */}
-        <motion.div 
+        {/*<motion.div 
           className="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-md transition duration-300"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -85,7 +85,7 @@ export default function Projetos() {
               <span className="px-3 py-1 bg-slate-100 text-texto-secundario text-xs font-semibold rounded-md">Gestão</span>
             </div>
           </Link>
-        </motion.div>
+        </motion.div>*/}
 
       </div>
     </section>

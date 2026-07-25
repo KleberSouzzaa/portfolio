@@ -36,13 +36,13 @@ export default function SentinelaCNC() {
           {/* Imagem Temática 1: Indústria e Análise de Gráficos */}
           <div className="w-full h-[400px] md:h-[500px] relative rounded-2xl overflow-hidden shadow-2xl mt-10">
             <img 
-              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80" 
+              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
               alt="Engenheiro analisando tecnologia no chão de fábrica" 
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-900/40 to-transparent flex items-end p-6 md:p-10">
               <p className="text-white font-medium text-lg md:text-xl max-w-3xl leading-relaxed">
-                Substituindo a subjetividade do apontamento manual pela precisão galvânica da leitura de corrente elétrica diretamente na alimentação do equipamento.
+              Elimine pranchetas e achismos no chão de fábrica: transforme a leitura de corrente elétrica dos equipamentos em indicadores contínuos de produtividade e saúde da máquina, sem intervenções complexas.
               </p>
             </div>
           </div>
@@ -147,7 +147,7 @@ export default function SentinelaCNC() {
             </div>
             <div className="h-full min-h-[300px] relative">
               <img 
-                src="https://images.unsplash.com/photo-1563770660941-20978e870e26?auto=format&fit=crop&q=80" 
+                src="https://images.unsplash.com/photo-1666618090858-fbcee636bd3e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
                 alt="Máquina CNC e automação industrial" 
                 className="absolute inset-0 w-full h-full object-cover"
               />
