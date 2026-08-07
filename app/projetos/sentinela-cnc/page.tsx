@@ -155,6 +155,93 @@ export default function SentinelaCNC() {
           </div>
         </motion.section>
 
+        {/* NOVO BLOCO: A SOLUÇÃO SENTINELA CNC E SUAS QUALIDADES */}
+        <motion.section 
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="space-y-12 bg-white p-8 md:p-12 rounded-3xl border border-slate-200 shadow-sm"
+        >
+          <div className="text-center max-w-4xl mx-auto space-y-4">
+            <span className="text-marca-primaria font-bold text-sm tracking-wider uppercase">O Olho Digital da Fábrica</span>
+            <h2 className="text-3xl md:text-4xl font-bold text-texto-principal">Afinal, o que é o Sentinela-CNC?</h2>
+            <p className="text-texto-secundario text-lg leading-relaxed">
+              O Sentinela-CNC é um produto Plug & Play de monitoramento via IoT. Ele traduz os sinais elétricos brutos do painel da máquina em dados estratégicos em tempo real, eliminando totalmente a dependência de pranchetas e mitigando o risco de paradas na linha de montagem dos seus clientes.
+            </p>
+          </div>
+
+          {/* Grid de Benefícios e Funcionalidades (6 Pontos Fortes) */}
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 items-start pt-6">
+            
+            {/* Benefício 1 */}
+            <div className="space-y-4 bg-slate-50 p-6 rounded-2xl border border-slate-100 hover:shadow-md transition-shadow">
+              <div className="w-12 h-12 rounded-lg bg-emerald-100 flex items-center justify-center">
+                <svg className="w-6 h-6 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+              </div>
+              <h3 className="font-bold text-lg text-slate-900">Monitoramento Remoto Global</h3>
+              <p className="text-slate-600 text-sm leading-relaxed">
+                Acompanhe a eficiência do chão de fábrica a qualquer hora. Seja no escritório ou em uma viagem de negócios, tenha a visão do status instantâneo do maquinário na palma da mão.
+              </p>
+            </div>
+
+            {/* Benefício 2 */}
+            <div className="space-y-4 bg-slate-50 p-6 rounded-2xl border border-slate-100 hover:shadow-md transition-shadow">
+              <div className="w-12 h-12 rounded-lg bg-blue-100 flex items-center justify-center">
+                <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+              </div>
+              <h3 className="font-bold text-lg text-slate-900">OEE e Contagem Automática</h3>
+              <p className="text-slate-600 text-sm leading-relaxed">
+                Substitua apontamentos manuais imprecisos pela contagem automática de produção. Tenha acesso a cálculos de OEE e gráficos precisos de desempenho e tendência por turno.
+              </p>
+            </div>
+
+            {/* Benefício 3 */}
+            <div className="space-y-4 bg-slate-50 p-6 rounded-2xl border border-slate-100 hover:shadow-md transition-shadow">
+              <div className="w-12 h-12 rounded-lg bg-indigo-100 flex items-center justify-center">
+                <svg className="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path></svg>
+              </div>
+              <h3 className="font-bold text-lg text-slate-900">Saúde Exata da Máquina</h3>
+              <p className="text-slate-600 text-sm leading-relaxed">
+                Através da corrente elétrica, o sistema mapeia o momento atual do equipamento. Saiba instantaneamente se a máquina está produzindo normal, em sobrecarga, parada em standby ou desligada.
+              </p>
+            </div>
+
+            {/* Benefício 4 */}
+            <div className="space-y-4 bg-slate-50 p-6 rounded-2xl border border-slate-100 hover:shadow-md transition-shadow">
+              <div className="w-12 h-12 rounded-lg bg-amber-100 flex items-center justify-center">
+                <svg className="w-6 h-6 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+              </div>
+              <h3 className="font-bold text-lg text-slate-900">Segregação de Refugos Cirúrgica</h3>
+              <p className="text-slate-600 text-sm leading-relaxed">
+                Se uma pastilha de corte quebra, o sistema detecta o aumento imediato do esforço no motor, gerando um <em>timestamp</em> exato (hora/minuto/segundo) para a Qualidade isolar o refugo e salvar o lote.
+              </p>
+            </div>
+
+            {/* Benefício 5 */}
+            <div className="space-y-4 bg-slate-50 p-6 rounded-2xl border border-slate-100 hover:shadow-md transition-shadow">
+              <div className="w-12 h-12 rounded-lg bg-red-100 flex items-center justify-center">
+                <svg className="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path></svg>
+              </div>
+              <h3 className="font-bold text-lg text-slate-900">Alertas Preditivos (Dashboards)</h3>
+              <p className="text-slate-600 text-sm leading-relaxed">
+                Se a máquina sair dos níveis corretos de produção ou entrar em ociosidade, alertas visuais e sonoros são emitidos, salvaguardando a linha contra quebras em potencial e altos custos de manutenção.
+              </p>
+            </div>
+
+            {/* Benefício 6 */}
+            <div className="space-y-4 bg-slate-50 p-6 rounded-2xl border border-slate-100 hover:shadow-md transition-shadow">
+              <div className="w-12 h-12 rounded-lg bg-teal-100 flex items-center justify-center">
+                <svg className="w-6 h-6 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+              </div>
+              <h3 className="font-bold text-lg text-slate-900">O Fim das Divergências</h3>
+              <p className="text-slate-600 text-sm leading-relaxed">
+                Elimina informações maquiadas ou inventadas para encobrir paradas. A imparcialidade do dado colhido diretamente na máquina garante custos reais de fabricação e dispensa horas extras desnecessárias.
+              </p>
+            </div>
+
+          </div>
+        </motion.section>
         {/* Seção 2: Validação em Bancada vs. Futuro MVP Industrial */}
         <motion.section
           initial={{ opacity: 0, y: 20 }}
