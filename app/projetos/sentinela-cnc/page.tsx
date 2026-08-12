@@ -171,6 +171,23 @@ export default function SentinelaCNC() {
             </p>
           </div>
 
+          {/* VÍDEO DO PITCH DO PRODUTO (Destaque Central) */}
+          <div className="max-w-3xl mx-auto">
+            <div className="w-full aspect-video bg-slate-900 rounded-2xl overflow-hidden shadow-xl border border-slate-800">
+              <video 
+                src="/pitch-sentinela.mp4" 
+                preload="metadata"
+                controls 
+                className="w-full h-full object-cover"
+              >
+                Seu navegador não suporta a exibição de vídeos.
+              </video>
+            </div>
+            <p className="text-center text-sm text-slate-500 mt-3">
+              Assista à apresentação executiva e conheça a arquitetura do Sentinela-CNC.
+            </p>
+          </div>
+        
           {/* Grid de Benefícios e Funcionalidades (6 Pontos Fortes) */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 items-start pt-6">
             
