@@ -178,6 +178,8 @@ export default function SentinelaCNC() {
                 src="/pitch-sentinela.mp4" 
                 preload="metadata"
                 controls 
+                controlsList="nodownload"
+                onContextMenu={(e) => e.preventDefault()}
                 className="w-full h-full object-cover"
               >
                 Seu navegador não suporta a exibição de vídeos.
