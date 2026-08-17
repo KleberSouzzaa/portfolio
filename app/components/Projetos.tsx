@@ -39,7 +39,7 @@ export default function Projetos() {
             </p>
             <div className="flex flex-wrap gap-2 mt-auto">
               <span className="px-3 py-1 bg-marca-primaria/10 text-marca-primaria text-xs font-semibold rounded-md">IoT</span>
-              <span className="px-3 py-1 bg-slate-100 text-texto-secundario text-xs font-semibold rounded-md">Raspberry Pi</span>
+              <span className="px-3 py-1 bg-slate-100 text-texto-secundario text-xs font-semibold rounded-md">Edge Computing</span>
               <span className="px-3 py-1 bg-slate-100 text-texto-secundario text-xs font-semibold rounded-md">Python</span>
             </div>
           </Link>
@@ -56,12 +56,12 @@ export default function Projetos() {
           <Link href="/projetos/kleber-ai" className="p-6 md:p-8 flex flex-col h-full">
             <h3 className="text-xl font-bold text-texto-principal mb-2">Kleber.AI</h3>
             <p className="text-texto-secundario mb-6 text-sm leading-relaxed flex-grow">
-              Assistente de inteligência artificial personalizado. Uma interface interativa construída para automatizar fluxos de trabalho locais, integração de ferramentas e análise de dados.
+            Assistente de IA especialista em Metrologia e Qualidade. Utiliza Visão Computacional e leitura de manuais técnicos privados (RAG) para diagnosticar alarmes e guiar calibrações com zero alucinação.
             </p>
             <div className="flex flex-wrap gap-2 mt-auto">
-              <span className="px-3 py-1 bg-marca-primaria/10 text-marca-primaria text-xs font-semibold rounded-md">IA</span>
+              <span className="px-3 py-1 bg-marca-primaria/10 text-marca-primaria text-xs font-semibold rounded-md">IA (RAG)</span>
               <span className="px-3 py-1 bg-slate-100 text-texto-secundario text-xs font-semibold rounded-md">Python</span>
-              <span className="px-3 py-1 bg-slate-100 text-texto-secundario text-xs font-semibold rounded-md">Streamlit</span>
+              <span className="px-3 py-1 bg-slate-100 text-texto-secundario text-xs font-semibold rounded-md">Visão Computacional</span>
             </div>
           </Link>
         </motion.div>
