@@ -33,6 +33,18 @@ export default function KleberAI() {
             Assistente Especialista em Metrologia e Qualidade 4.0. Resolução instantânea de alarmes e calibrações com zero alucinação, baseado nos manuais oficiais da fábrica.
           </p>
           
+          <div className="flex flex-wrap gap-4 mb-10">
+            <a 
+              href="https://kleber-ai.streamlit.app/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="px-8 py-4 bg-emerald-600 text-white hover:bg-emerald-700 transition-colors rounded-xl font-bold shadow-lg text-lg flex items-center gap-2"
+            >
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+              Testar o Kleber.AI ao Vivo
+            </a>
+          </div>
+
           {/* Imagem Temática 1: IA e Dados */}
           <div className="w-full h-[400px] md:h-[500px] relative rounded-2xl overflow-hidden shadow-2xl mt-10 border border-slate-800">
             <img 
@@ -313,6 +325,16 @@ export default function KleberAI() {
             Unir conhecimentos profundos de Metrologia com as mais modernas linguagens de desenvolvimento (Python e Next.js) é o que me permite criar softwares que realmente resolvem dores industriais reais.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
+
+          <a 
+              href="https://kleber-ai.streamlit.app/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="px-8 py-4 bg-slate-900 text-white hover:bg-slate-800 transition-colors rounded-xl font-bold shadow-md text-lg"
+            >
+              Testar o Kleber.AI ao Vivo
+            </a>
+
             <a 
               href="https://www.linkedin.com/in/kleber-souza-023965241/" 
               target="_blank" 
